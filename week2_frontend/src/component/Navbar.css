@@ -1,0 +1,97 @@
+/* General Navbar Styling */
+.navbar-custom {
+    background-color: #1db954; /* Spotify green */
+    padding: 0.75rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .navbar-brand i {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 0.2rem;
+    display: block;
+    position: relative;
+  }
+  
+  .navbar-custom .navbar-toggler-icon::before,
+  .navbar-custom .navbar-toggler-icon::after {
+    content: '';
+    background-color: #fff;
+    width: 1.5rem;
+    height: 0.2rem;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+  
+  .navbar-custom .navbar-toggler-icon::before {
+    top: -0.4rem;
+  }
+  
+  .navbar-custom .navbar-toggler-icon::after {
+    top: 0.4rem;
+  }
+  
+  /* Search Input Styling */
+  .navbar-custom .form-control {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #f9f9f9;
+    padding: 0.5rem 1rem;
+    color: #333;
+  }
+  
+  .navbar-custom .form-control:focus {
+    border-color: #1db954;
+    box-shadow: 0 0 5px rgba(29, 185, 84, 0.5);
+    outline: none;
+  }
+  
+  .navbar-custom .btn-outline-success {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .navbar-custom .btn-outline-success:hover {
+    background-color: #ffffff;
+    color: #1db954;
+    border-color: #ffffff;
+  }
+  
+  /* Mobile Styling */
+  @media (max-width: 768px) {
+    .navbar-custom .form-control {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  
+    .navbar-custom .btn-outline-success {
+      width: 100%;
+    }
+  }
+  

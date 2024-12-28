@@ -1,0 +1,40 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  color: #f0f0f0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+
+}
+
+/* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+} */
+.button
+{
+ width:200px;
+ height:50px;
+ border-radius: 25px;
+ background-color: rgb(29,213,94);
+ /* justify-items: center !important; */
+  /* align-items: center !important; */
+  margin-left: 200px;
+  inset: 0;
+  margin-bottom: 15px !important;
+  /* height: 100vh; */
+}
+.signup{
+  color: #f0f0f0;
+  background-color: black;
+}
+span{
+
+  margin-left: 210px;
+}
